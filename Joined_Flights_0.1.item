@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_At3msMkjEe-x4IEjCUxLvw" name="Joined_Flights" id="_AttOoMkjEe-x4IEjCUxLvw" dataPackage="_At3msckjEe-x4IEjCUxLvw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Youcode/projet_TOS_ESB/Joined_Flights.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_At3msckjEe-x4IEjCUxLvw" name="default" dataManager="_At3msMkjEe-x4IEjCUxLvw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_At3msskjEe-x4IEjCUxLvw" id="_5iFVcMkiEe-x4IEjCUxLvw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_At3ms8kjEe-x4IEjCUxLvw" label="Airline_Code" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_At3mtMkjEe-x4IEjCUxLvw" label="SourceAirportCityCountry" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_At3mtckjEe-x4IEjCUxLvw" label="DestinationAirportCityCountry" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

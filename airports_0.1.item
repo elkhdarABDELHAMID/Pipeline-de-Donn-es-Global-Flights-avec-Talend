@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="__ml68MbEEe-JUuGcfDs68w" name="airports" id="__mcJ8MbEEe-JUuGcfDs68w" dataPackage="__mqzcMbEEe-JUuGcfDs68w" Server="Localhost 127.0.0.1" FilePath="C:/Users/Youcode/projet_TOS_ESB/input/airports.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="0" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="__mqzcMbEEe-JUuGcfDs68w" name="default" dataManager="__ml68MbEEe-JUuGcfDs68w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="__mqzccbEEe-JUuGcfDs68w" id="_zx8vkMbBEe-JUuGcfDs68w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__mqzcsbEEe-JUuGcfDs68w" label="ID" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__mqzc8bEEe-JUuGcfDs68w" label="Name" length="45" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__mqzdMbEEe-JUuGcfDs68w" label="City" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__mqzdcbEEe-JUuGcfDs68w" label="Country" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__mqzdsbEEe-JUuGcfDs68w" label="IATA" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__mqzd8bEEe-JUuGcfDs68w" label="ICAO" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__mqzeMbEEe-JUuGcfDs68w" label="Latitude" length="18" precision="16" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__mqzecbEEe-JUuGcfDs68w" label="Longitude" length="19" precision="15" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__mqzesbEEe-JUuGcfDs68w" label="Altitude" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__mqze8bEEe-JUuGcfDs68w" label="Timezone_Offset" length="-1" precision="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__mqzfMbEEe-JUuGcfDs68w" label="DST" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__mqzfcbEEe-JUuGcfDs68w" label="Timezone" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__mqzfsbEEe-JUuGcfDs68w" label="Type" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__mqzf8bEEe-JUuGcfDs68w" label="Source" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

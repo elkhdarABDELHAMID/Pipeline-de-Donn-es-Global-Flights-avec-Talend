@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_o6olkMayEe-JUuGcfDs68w" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_t_oXMMa3Ee-JUuGcfDs68w" comment="Chemin local pour airports.dat" name="chemin_local_airports" prompt="Non" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="C:\Users\Youcode\projet_TOS_ESB\input\airports.csv"/>
+  <contextParameter xmi:id="_cbPH0MbBEe-JUuGcfDs68w" comment="Chemin local pour routes.dat" name="chemin_local_routes" prompt="Non" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="C:\Users\Youcode\projet_TOS_ESB\input\routes.csv"/>
+  <contextParameter xmi:id="_cbPH0cbBEe-JUuGcfDs68w" comment="Chemin output&#x9;" name="chemin_output" prompt="Non" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="C:\Users\Youcode\projet_TOS_ESB\output\"/>
+</talendfile:ContextType>

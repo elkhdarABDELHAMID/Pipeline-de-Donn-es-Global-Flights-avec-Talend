@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Mf4FEcbGEe-JUuGcfDs68w" name="routes" id="_Mf4FEMbGEe-JUuGcfDs68w" dataPackage="_Mf4FEsbGEe-JUuGcfDs68w" Server="Localhost 127.0.0.1" FilePath="C:/Users/Youcode/projet_TOS_ESB/input/routes.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Mf4FEsbGEe-JUuGcfDs68w" name="default" dataManager="_Mf4FEcbGEe-JUuGcfDs68w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Mf4FE8bGEe-JUuGcfDs68w" id="_CssJMMbFEe-JUuGcfDs68w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mf4FFMbGEe-JUuGcfDs68w" label="Airline_Code" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mf4FFcbGEe-JUuGcfDs68w" label="Flight_Number" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mf4FFsbGEe-JUuGcfDs68w" label="Origin_Airport" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mf4FF8bGEe-JUuGcfDs68w" label="Origin_Airport_ID" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mf4FGMbGEe-JUuGcfDs68w" label="Destination_Airport" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mf4FGcbGEe-JUuGcfDs68w" label="Destination_Airport_ID" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mf4FGsbGEe-JUuGcfDs68w" label="Stopovers" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mf4FG8bGEe-JUuGcfDs68w" label="Codeshare" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mf4FHMbGEe-JUuGcfDs68w" label="Aircraft_Code" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
